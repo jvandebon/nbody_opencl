@@ -1,0 +1,25 @@
+Build Library:
+
+cd optimised/device/lib
+make
+
+
+Build Kernel:
+
+cd optimised
+source build_kernel.sh 	# change target if not for a10gx
+
+Program Device:
+
+cd optimised
+source program_device.sh
+
+Build Host:
+
+cd optimised
+make
+
+Run:
+
+cd ./optimised/bin/host
+
